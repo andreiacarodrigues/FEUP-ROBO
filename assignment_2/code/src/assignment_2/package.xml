@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<package>
+  <name>assignment_2</name>
+  <version>0.0.0</version>
+  <description>The assignment_2 package</description>
+
+  <maintainer email="andreiacarodrigues@gmail.com">Andreia Rodrigues</maintainer>
+
+  <license>GPLv3</license>
+
+
+  <!-- Url tags are optional, but multiple are allowed, one per tag -->
+  <!-- Optional attribute type can be: website, bugtracker, or repository -->
+  <!-- Example: -->
+  <!-- <url type="website">http://wiki.ros.org/assignment_2</url> -->
+
+  <author email="andreiacarodrigues@gmail.com">Andreia Rodrigues</author>
+
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+<build_depend>roslib</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>tf</build_depend>
+  <build_depend>sensor_msgs</build_depend>
+  <build_depend>stdr_msgs</build_depend>
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>geometry_msgs</build_depend>
+
+ <run_depend>roslib</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>tf</run_depend>
+  <run_depend>sensor_msgs</run_depend>
+  <run_depend>stdr_msgs</run_depend>
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>geometry_msgs</run_depend>
+
+
+  <!-- The export tag contains other, unspecified, tags -->
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
